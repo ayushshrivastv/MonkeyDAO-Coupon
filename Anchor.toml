@@ -6,10 +6,10 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-NFTCoupon = "3YS5kavc43aN36bzhwnz8YncufRVQM1ZMwPiceCUH4jU"
+NFTCoupon = "55aFX7zaqURizkrxJc2HdtKrdpqLo5Vin6Qpo2gFXzMF"
 
 [programs.localnet]
-NFTCoupon = "3YS5kavc43aN36bzhwnz8YncufRVQM1ZMwPiceCUH4jU"
+NFTCoupon = "55aFX7zaqURizkrxJc2HdtKrdpqLo5Vin6Qpo2gFXzMF"
 
 [registry]
 url = "https://api.apr.dev"
