@@ -1,3 +1,5 @@
+import { FloatingNavDemo } from '@/components/FloatingNavDemo';
+
 export const metadata = {
   title: 'Video Demo - DealCoin',
   description: 'Watch and upload demo videos showcasing DealCoin NFT marketplace features',
@@ -6,6 +8,7 @@ export const metadata = {
 export default function VideoPage() {
   return (
     <div className="relative w-full min-h-screen" style={{ backgroundColor: '#0a0a0a' }}>
+      <FloatingNavDemo />
         <div className="w-full flex items-center justify-center pt-32 pb-16" style={{ minHeight: 'calc(100vh - 200px)' }}>
           <div className="text-center px-4 max-w-4xl mx-auto">
             <h1 className="text-4xl md:text-6xl font-light mb-6 text-white" style={{ textShadow: '0 0 20px rgba(0,0,0,1), 0 0 40px rgba(0,0,0,1), 0 0 60px rgba(0,0,0,0.9), 2px 2px 8px rgba(0,0,0,1)', WebkitTextStroke: '1px rgba(0,0,0,0.8)' }}>
