@@ -1,4 +1,4 @@
-import { MainLayout } from '@/src/layout/Layout';
+import { MainLayout } from '@/layout/Layout';
 
 export const metadata = {
   title: 'Video Demo - DealCoin',
