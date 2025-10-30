@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import { WalletContextProvider } from "@/components/WalletProvider";
-import { Navbar } from "@/components/Navbar";
+import { ConditionalNavbar, ConditionalFooter } from "@/components/ConditionalNavbar";
 import { QueryProvider } from "@/components/QueryProvider";
 
 const geistSans = Geist({
@@ -41,15 +41,11 @@ export default function RootLayout({
         <QueryProvider>
           <WalletContextProvider>
             <div className="min-h-screen flex flex-col">
-              <Navbar />
+              <ConditionalNavbar />
               <main className="flex-1">
                 {children}
               </main>
-              <footer className="bg-gray-900 text-white py-8">
-                <div className="container mx-auto px-4 text-center">
-                  <p>&copy; 2024 DealCoin. All rights reserved.</p>
-                </div>
-              </footer>
+              <ConditionalFooter />
             </div>
           </WalletContextProvider>
         </QueryProvider>
