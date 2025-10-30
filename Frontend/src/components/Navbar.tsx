@@ -31,6 +31,9 @@ export function Navbar() {
             <Link href="/categories" className="text-gray-700 hover:text-primary-600 font-medium">
               Categories
             </Link>
+            <Link href="/video" className="text-gray-700 hover:text-primary-600 font-medium">
+              Video Demo
+            </Link>
             <Link href="/merchant" className="text-gray-700 hover:text-primary-600 font-medium">
               For Merchants
             </Link>
@@ -96,6 +99,13 @@ export function Navbar() {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Categories
+              </Link>
+              <Link 
+                href="/video" 
+                className="text-gray-700 hover:text-primary-600 font-medium py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Video Demo
               </Link>
               <Link 
                 href="/merchant" 
